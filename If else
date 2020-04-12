@@ -1,0 +1,16 @@
+#include<stdio.h>
+{
+int N;
+scanf("%d ,&N);
+if(N>=85 && N<=100)
+printf("A grade\n");
+else if(N>=70 && N<=84)
+printf("B grade\n");
+else if(N>=55 && N<=69)
+printf("C grade\n");
+else if(N>=40 && N<=54)
+printf("D grade\n");
+else
+printf("F grade\n");
+return 0;
+}
